@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+*.iml
+out
+gen
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+Dockerfile
+LICENSE
+flaconi-test-automation-engineer-challenge.iml
+pom.xml
+src/
+target/
