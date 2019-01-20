@@ -1,4 +1,4 @@
-# Automated test example in Java with Cucumber and Selenium WebDriver #
+# Coding Challenge Test Automation Engineer Flaconi #
 
 This project is created to fulfill the Flaconi test automation engineer code challenge.
 The test scenario covers the following user journey:
