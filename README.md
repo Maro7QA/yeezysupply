@@ -1,7 +1,7 @@
 # Automated test example in Java with Cucumber and Selenium WebDriver #
 
 This project is created to fulfill the Flaconi test automation engineer code challenge.
-The test scenario covers to the following user journey:
+The test scenario covers the following user journey:
 
 1. user visits https://www.flaconi.de
 2. user wants to buy perfume
@@ -13,7 +13,7 @@ Provide a Dockerfile or container for packaging the necessary dependencies to ru
 Create an entrypoint for your Docker container which runs the test.
 
 
-Test scenario is described in feature file "Add_perfum_to_cart" located here ./src/test/resources/com/automatedtest.
+Test scenario is described in feature file "Add_perfume_to_cart" located here ./src/test/resources/com/automatedtest.
 
 
 ## Installation ##
@@ -38,7 +38,7 @@ $ mvn test
 
 By default, tests will run on Chrome. To change that, specify `-Dbrowser={browser}` where `{browser}` is either `chrome` or `firefox`.
 
-You can also select specific scenarios to execute using `-Dcucumber.options="--tags @your_tag"`.
+You can also select Add_perfume_to_cart scenario by using `-Dcucumber.options="--tags @Add_perfume_to_cart"`.
 
 ## Bonus Docker ##
 
