@@ -1,0 +1,351 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1562458294,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Add Perfume to Cart Flaconi markets",
+        "description": "",
+        "id": "testing;add-perfume-to-cart-flaconi-markets;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 94203838,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TearDown.quitDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3790683371,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user navigates to Flaconi landing page on market \"de\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "de",
+                  "offset": 54
+                }
+              ],
+              "location": "LandingPageSteps.theUserNavigatesToFlaconiLandingPageOnMarket(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108642351,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user closes the cookie message overlay",
+            "match": {
+              "location": "LandingPageSteps.theUserClosesTheCookieMessageOverlay()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1169518071,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user searches for product \"Dolce \u0026 Gabbana Light Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dolce \u0026 Gabbana Light Blue",
+                  "offset": 31
+                }
+              ],
+              "location": "LandingPageSteps.theUserSearchesForProduct(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1339570631,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user selects product \"Dolce \u0026 Gabbana Light Blue\" from product grid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dolce \u0026 Gabbana Light Blue",
+                  "offset": 26
+                }
+              ],
+              "location": "LandingPageSteps.theUserSelectsProductFromProductGrid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206923297,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user selects first size of the list on product detail page",
+            "match": {
+              "location": "LandingPageSteps.theUserSelectsFirstSizeOfTheListOnProductDetailPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23716245,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The cart overlay is shown to the user",
+            "match": {
+              "location": "CartPageSteps.theCartOverlayIsShownToTheUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1820878575,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user clicks on view bag in cart overlay",
+            "match": {
+              "location": "CartPageSteps.theUserClicksOnViewBagInCartOverlay()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85451390,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The cart page is shown to the user",
+            "match": {
+              "location": "CartPageSteps.theCartPageIsShownToTheUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147277808,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Product \"Dolce \u0026 Gabbana Light Blue\" is displayed on cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dolce \u0026 Gabbana Light Blue",
+                  "offset": 9
+                }
+              ],
+              "location": "CartPageSteps.productIsDisplayedOnCartPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Add_perfume_to_cart"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 982406998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Add Perfume to Cart Flaconi markets",
+        "description": "",
+        "id": "testing;add-perfume-to-cart-flaconi-markets;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 89042571,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TearDown.quitDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2800281179,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user navigates to Flaconi landing page on market \"at\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "at",
+                  "offset": 54
+                }
+              ],
+              "location": "LandingPageSteps.theUserNavigatesToFlaconiLandingPageOnMarket(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101014566,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user closes the cookie message overlay",
+            "match": {
+              "location": "LandingPageSteps.theUserClosesTheCookieMessageOverlay()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 983810931,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user searches for product \"Giorgio Armani Acqua di Giò Homme\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giorgio Armani Acqua di Giò Homme",
+                  "offset": 31
+                }
+              ],
+              "location": "LandingPageSteps.theUserSearchesForProduct(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1005834286,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user selects product \"Giorgio Armani Acqua di Giò Homme\" from product grid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giorgio Armani Acqua di Giò Homme",
+                  "offset": 26
+                }
+              ],
+              "location": "LandingPageSteps.theUserSelectsProductFromProductGrid(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136468568,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user selects first size of the list on product detail page",
+            "match": {
+              "location": "LandingPageSteps.theUserSelectsFirstSizeOfTheListOnProductDetailPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30286850,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The cart overlay is shown to the user",
+            "match": {
+              "location": "CartPageSteps.theCartOverlayIsShownToTheUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1772057775,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user clicks on view bag in cart overlay",
+            "match": {
+              "location": "CartPageSteps.theUserClicksOnViewBagInCartOverlay()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36876287,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The cart page is shown to the user",
+            "match": {
+              "location": "CartPageSteps.theCartPageIsShownToTheUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86771575,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Product \"Giorgio Armani Acqua di Giò Homme\" is displayed on cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giorgio Armani Acqua di Giò Homme",
+                  "offset": 9
+                }
+              ],
+              "location": "CartPageSteps.productIsDisplayedOnCartPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Add_perfume_to_cart"
+          }
+        ]
+      }
+    ],
+    "name": "Testing",
+    "description": "",
+    "id": "testing",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/automatedtest/Add_perfume_to_cart.feature",
+    "tags": []
+  }
+]
