@@ -12,7 +12,7 @@ import java.util.List;
 
 public class LandingPage extends BasePage {
 
-    private static final String landingPageURL = "https://www.flaconi.";
+    private static final String landingPageURL = "https://www.yeezysupply.";
 
     private By searchInputField = By.cssSelector("[id='autosuggest-form-header']");
     private By searchButton = By.cssSelector("#autosuggest-form-header > button");
@@ -56,5 +56,8 @@ public class LandingPage extends BasePage {
         if (tools.forPresenceOfElements(10, cookieMessageBoxCloseButton, "Cookie message box")) {
             driver.findElement(cookieMessageBoxCloseButton).click();
         }
+    }
+
+    public void selectFristArticleOnGrid() {
     }
 }

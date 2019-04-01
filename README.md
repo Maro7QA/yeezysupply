@@ -1,20 +1,3 @@
-# Coding Challenge Test Automation Engineer Flaconi #
-
-This project is created to fulfill the Flaconi test automation engineer code challenge.
-The test scenario covers the following user journey:
-
-1. user visits https://www.flaconi.de
-2. user wants to buy perfume
-3. user adds perfume to cart
-4. verify perfume is shown on cart page
-
-Bonus Points:
-Provide a Dockerfile or container for packaging the necessary dependencies to run the tests.
-Create an entrypoint for your Docker container which runs the test.
-
-
-Test scenario is described in feature file "Add_perfume_to_cart" located here ./src/test/resources/com/automatedtest.
-
 
 ## Installation ##
 
@@ -36,18 +19,6 @@ $ mvn clean install
 $ mvn test
 ```
 
-By default, tests will run on Chrome. To change that, specify `-Dbrowser={browser}` where `{browser}` is either `chrome` or `firefox`.
-
-You can also select Add_perfume_to_cart scenario by using `-Dcucumber.options="--tags @Add_perfume_to_cart"`.
-
-## Bonus Docker ##
-
-Dockerfile is located here ./. To build docker image, run
-
-```console
-$ docker build ./
-
-```
 
 
 

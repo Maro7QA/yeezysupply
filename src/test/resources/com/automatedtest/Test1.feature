@@ -1,10 +1,11 @@
 Feature: Testing
 
-  @Add_perfume_to_cart
-  Scenario Outline: Add Perfume to Cart Flaconi markets
+  @Test1
+  Scenario Outline: Test1
 
     Given The user navigates to Flaconi landing page on market "<Market>"
     When The user closes the cookie message overlay
+    When The user selects first article on the grid
     Then The user searches for product "<Perfume>"
     When The user selects product "<Perfume>" from product grid
     When The user selects first size of the list on product detail page
@@ -15,5 +16,4 @@ Feature: Testing
 
     Examples:
       | Market | Perfume                           |
-      | de     | Dolce & Gabbana Light Blue        |
-      | at     | Giorgio Armani Acqua di Giò Homme |
+      | com     | Dolce & Gabbana Light Blue        |

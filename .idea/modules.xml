@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/flaconi-test-automation-engineer-challenge.iml" filepath="$PROJECT_DIR$/flaconi-test-automation-engineer-challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/automated-test-sample.iml" filepath="$PROJECT_DIR$/automated-test-sample.iml" />
     </modules>
   </component>
 </project>
